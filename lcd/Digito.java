@@ -2,13 +2,13 @@ package lcd;
 /**
  * Esta clase crea un objeto de tipo Digito que contiene las caracteristicas como
  * valor, segemtos encendidos y puntos.
- * La dispocisión de los segmentos es: 
- * 	   5	
+ * La dispocisiÃ³n de los segmentos es: 
+ *     5	
  *    --
- * 	1|  |3
- * 	 6--
+ *  1|  |3
+ *   6--
  *  2|  |4
- * 	  --
+ *    --
  *     7
  */
     
@@ -40,14 +40,14 @@ public class Digito {
         this.pf4 = new int[2];
         this.pf5 = new int[2];
         
-        //Asignación de los segmentos que se encienden con cada numero
+        //AsignaciÃ³n de los segmentos que se encienden con cada numero
         segmentosActivados = SEGMENTOS_ENCENDIDOS[this.valor]; 
     }
     
     
     /**
     * Metodo encargado de inicializar filasDig y columDig (Setter)
-    * @param NumSize tamaño de los digitos
+    * @param NumSize tamaÃ±o de los digitos
     */  
     public static void setFilasColumDig(int NumSize) {
     	filasDig = (2 * NumSize) + 3;
